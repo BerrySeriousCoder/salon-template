@@ -2,6 +2,12 @@ import { motion } from 'framer-motion';
 import nailart from '../assets/nailart.jpg';
 import hair from '../assets/hair_styling.jpg';
 import facial from '../assets/facial.jpg';
+import bride from '../assets/bride.jpg'
+import pedicure from '../assets/pedicure.jpg'
+import makeup from '../assets/makeup.jpg'
+import lashlift from '../assets/lashlift.jpg'
+import massage from '../assets/massage.jpg'
+import waxing from '../assets/waxing.jpg'
 
 const services = [
   {
@@ -21,8 +27,46 @@ const services = [
     title: 'Nail Art',
     description: 'Professional manicures and creative nail designs',
     price: 'from $35'
+  },
+  {
+    image: massage,
+    title: 'Massage Therapy',
+    description: 'Relaxing and therapeutic massages to ease tension',
+    price: 'from $60'
+  },
+  {
+    image: waxing,
+    title: 'Waxing Services',
+    description: 'Full-body and localized waxing for smooth skin',
+    price: 'from $30'
+  },
+  {
+    image: makeup,
+    title: 'Makeup Services',
+    description: 'Professional makeup for events and special occasions',
+    price: 'from $45'
+  },
+  {
+    image: lashlift,
+    title: 'Eyelash Extensions & Lifts',
+    description: 'Enhance your lashes with extensions or a natural lift',
+    price: 'from $80'
+  },
+  {
+    image: pedicure,
+    title: 'Pedicure',
+    description: 'Luxurious foot care and styling for healthy, beautiful feet',
+    price: 'from $40'
+  },
+
+  {
+    image: bride,
+    title: 'Bridal Packages',
+    description: 'Complete styling and care for your big day',
+    price: 'from $200'
   }
 ];
+
 
 const containerVariants = {
   hidden: { opacity: 0 },
